@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pbp:PackageBuilderProject SchemaVersion="1.1" Id="1f6a13d7-8c3b-4c28-984e-3f7b9c922b10" Name="SpotfireExportAudittrail" Version="1.0.2.2" IntendedClient="Both" xmlns:pbp="http://spotfire.tibco.com/PackageBuilderProject.xsd">
+  <!-- Top-level package that bundles Forms, Web and Core modules into a single .spk -->
+  <pbp:ModuleFile RelativePath="SpotfireExportAudittrail.Forms\module.xml" UpdateAutomatically="true" />
+  <pbp:BuildFolder RelativePath="." />
+  <pbp:Files>
+	<!-- Module manifests -->
+	<pbp:File RelativePath="SpotfireExportAudittrail.Forms\module.xml" Included="true" ExtensionAssembly="false" />
+	<pbp:File RelativePath="SpotfireExportAudittrail.Web\module.xml" Included="true" ExtensionAssembly="false" />
+	<pbp:File RelativePath="SpotfireExportAudittrail.Core\module.xml" Included="true" ExtensionAssembly="false" />
+
+	<!-- Compiled assemblies (built by projects into bin\net48) -->
+	<pbp:File RelativePath="SpotfireExportAudittrail.Forms\bin\net48\SpotfireAuditExtension.dll" Included="true" ExtensionAssembly="true" />
+	<pbp:File RelativePath="SpotfireExportAudittrail.Web\bin\net48\SpotfireAuditExtension.Web.dll" Included="true" ExtensionAssembly="true" />
+	<pbp:File RelativePath="SpotfireExportAudittrail.Core\bin\net48\SpotfireAuditExtension.Core.dll" Included="true" ExtensionAssembly="true" />
+
+	<!-- Web prompt (top-level file for Web Player) -->
+	<pbp:File RelativePath="SpotfireExportAudittrail.Web\ExportPromptWeb.html" Included="true" ExtensionAssembly="false" />
+
+	<!-- Optional: include other dependency assemblies if needed -->
+	<!-- <pbp:File RelativePath="libs\Newtonsoft.Json.dll" Included="true" ExtensionAssembly="true" /> -->
+  </pbp:Files>
+</pbp:PackageBuilderProject>

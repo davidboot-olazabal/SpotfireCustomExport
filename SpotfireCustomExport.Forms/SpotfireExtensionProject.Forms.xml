@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pbp:PackageBuilderProject SchemaVersion="1.1" Id="1f6a13d7-8c3b-4c28-984e-3f7b9c922b10" Name="SpotfireExportAudittrail.Forms" Version="1.1.2.0" IntendedClient="Forms" xmlns:pbp="http://spotfire.tibco.com/PackageBuilderProject.xsd">
+  <pbp:ModuleFile RelativePath="module.xml" UpdateAutomatically="true" />
+  <pbp:BuildFolder RelativePath="bin\net48" />
+  <pbp:Files>
+	<pbp:File RelativePath="module.xml" Included="true" ExtensionAssembly="false" />
+	<pbp:File RelativePath="SpotfireAuditExtension.dll" Included="true" ExtensionAssembly="true" />
+	<pbp:File RelativePath="SpotfireAuditExtension.pdb" Included="false" ExtensionAssembly="false" />
+  </pbp:Files>
+</pbp:PackageBuilderProject>

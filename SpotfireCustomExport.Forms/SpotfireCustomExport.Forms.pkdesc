@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<PackageDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    SchemaVersion="2.0" Name="SpotfireCustomExport Forms" Version="1.0.6.0"
+                    SeriesId="{E6F11727-EA1B-48DF-BA42-D63D88F395C9}" IntendedClient="professional">
+    <File SourceFile="module.xml" TargetFilename="module.xml" Type="File" />
+
+    <File SourceFile="SpotfireCustomExport.Forms.dll" TargetFilename="SpotfireCustomExport.Forms.dll" Type="Assembly">
+        <Compatibility Min-version="0.0.0.0" Max-version="#.#.*.*" />
+    </File>
+
+    <!-- Link to Core Package -->
+    <File SourceFile="SpotfireCustomExport.Core.dll" TargetFilename="" Type="ReferencedFile" />
+
+    <!-- Link to Spotfire SDK -->
+    <File SourceFile="Spotfire.Dxp.Application.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="Spotfire.Dxp.Data.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="Spotfire.Dxp.Framework.dll" TargetFilename="" Type="ReferencedFile" />
+</PackageDescription>

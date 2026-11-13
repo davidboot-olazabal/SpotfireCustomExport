@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<PackageDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    SchemaVersion="2.0" Name="SpotfireCustomExport Core" Version="1.0.6.0"
+                    SeriesId="{43B8F14E-6D38-4187-A404-52F8F87C2D6E}" IntendedClient="any" IntendedPlatform="WINDOWS">
+    
+    <File SourceFile="module.xml" TargetFilename="module.xml" Type="File" />
+
+    <File SourceFile="SpotfireCustomExport.Core.dll" TargetFilename="SpotfireCustomExport.Core.dll" Type="Assembly">
+        <Compatibility Min-version="0.0.0.0" Max-version="#.#.*.*" />
+    </File>
+
+    <!-- Third-Party dependencies required for Excel Export -->
+    <File SourceFile="EPPlus.dll" TargetFilename="EPPlus.dll" Type="Assembly" />
+    <File SourceFile="EPPlus.Interfaces.dll" TargetFilename="EPPlus.Interfaces.dll" Type="Assembly" />
+    <File SourceFile="Microsoft.IO.RecyclableMemoryStream.dll" TargetFilename="Microsoft.IO.RecyclableMemoryStream.dll" Type="Assembly" />
+
+    <!-- Framework assemblies referenced at runtime -->
+    <File SourceFile="System.Buffers.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="System.Memory.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="System.Numerics.Vectors.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="System.Runtime.CompilerServices.Unsafe.dll" TargetFilename="" Type="ReferencedFile" />
+
+    <!-- SDK References -->
+    <File SourceFile="Spotfire.Dxp.Application.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="Spotfire.Dxp.Data.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="Spotfire.Dxp.Framework.dll" TargetFilename="" Type="ReferencedFile" />
+</PackageDescription>

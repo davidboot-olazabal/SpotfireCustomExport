@@ -1,0 +1,12 @@
+# Visual Studio cache and user files
+.vs/
+*.user
+*.suo
+
+# Build outputs and compiled Spotfire packages
+bin/
+obj/
+*.spk
+
+# Strong-name signing keys
+*.snk

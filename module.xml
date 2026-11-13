@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>1f6a13d7-8c3b-4c28-984e-3f7b9c922b10</id>
+  <name>SpotfireExportAudittrail.Forms</name>
+  <version>1.0.3.0</version>
+  <intendedClient>Core</intendedClient>
+  <assemblies>
+    <assembly>
+      <fullname>SpotfireAuditExtension.Core, Version=1.0.2.2, Culture=neutral, PublicKeyToken=null</fullname>
+      <codebase>SpotfireExportAudittrail.Core\bin\net48\SpotfireAuditExtension.Core.dll</codebase>
+      <compatibility>
+        <min-version>0.0.0.0</min-version>
+        <max-version>#.#.*.*</max-version>
+      </compatibility>
+    </assembly>
+    <assembly>
+      <fullname>SpotfireAuditExtension, Version=1.0.2.2, Culture=neutral, PublicKeyToken=7f2b976d262d2141</fullname>
+      <codebase>SpotfireExportAudittrail.Forms\bin\net48\SpotfireAuditExtension.dll</codebase>
+      <compatibility>
+        <min-version>0.0.0.0</min-version>
+        <max-version>#.#.*.*</max-version>
+      </compatibility>
+    </assembly>
+    <assembly>
+      <fullname>SpotfireAuditExtension.Web, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</fullname>
+      <codebase>SpotfireExportAudittrail.Web\bin\net48\SpotfireAuditExtension.Web.dll</codebase>
+      <compatibility>
+        <min-version>0.0.0.0</min-version>
+        <max-version>#.#.*.*</max-version>
+      </compatibility>
+    </assembly>
+  </assemblies>
+  <resources>
+    <publicResource name="SpotfireExportAudittrail.ExportPromptWeb.html" relativePath="SpotfireExportAudittrail.Web\ExportPromptWeb.html" />
+  </resources>
+</module>

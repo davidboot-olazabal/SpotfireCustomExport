@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PackageDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    SchemaVersion="2.0" Name="SpotfireCustomExport Web" Version="1.0.6.0"
+                    SeriesId="{1D3EC79C-5B00-4B1C-A01B-AC33E384FEF0}" IntendedClient="web">
+    
+    <File SourceFile="module.xml" TargetFilename="module.xml" Type="File" />
+
+    <File SourceFile="SpotfireCustomExport.Web.dll" TargetFilename="SpotfireCustomExport.Web.dll" Type="Assembly">
+        <Compatibility Min-version="0.0.0.0" Max-version="#.#.*.*" /> 
+    </File>
+
+    <!-- Link to Core Package -->
+    <File SourceFile="SpotfireCustomExport.Core.dll" TargetFilename="" Type="ReferencedFile" />
+    
+    <!-- Link to Spotfire SDK -->
+    <File SourceFile="Spotfire.Dxp.Application.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="Spotfire.Dxp.Data.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="Spotfire.Dxp.Framework.dll" TargetFilename="" Type="ReferencedFile" />
+    <File SourceFile="Spotfire.Dxp.Web.dll" TargetFilename="" Type="ReferencedFile" />
+</PackageDescription>
